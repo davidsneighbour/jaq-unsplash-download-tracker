@@ -1,3 +1,4 @@
 unsplash-storage-state.json
 unsplash-archive
 node_modules
+.env
