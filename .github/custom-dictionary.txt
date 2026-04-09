@@ -1,0 +1,5 @@
+# Local cspell dictionary for this repository
+jaq
+davidsneighbour
+Unsplash
+Kollitsch

@@ -27,5 +27,18 @@
   },
   "devDependencies": {
     "@types/node": "25.5.2"
+  },
+  "cspell": {
+    "language": "en-GB",
+    "dictionaryDefinitions": [
+      {
+        "name": "local-project-words",
+        "path": "./.github/custom-dictionary.txt",
+        "addWords": true
+      }
+    ],
+    "dictionaries": [
+      "local-project-words"
+    ]
   }
 }
