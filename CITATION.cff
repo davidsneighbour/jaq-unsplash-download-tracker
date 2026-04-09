@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use code or cite this website, please cite it as below."
+authors:
+  - family-names: "Kollitsch"
+    given-names: "Patrick"
+    orcid: "https://orcid.org/0000-0001-6250-2135"
+title: "JAQ Unsplash Download Tracker"
+version: v0.0.1
+date-released: 2026-04-10
+url: "https://github.com/davidsneighbour/jaq-unsplash-download-tracker"
