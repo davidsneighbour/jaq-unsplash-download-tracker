@@ -1,0 +1,31 @@
+{
+  "name": "@davidsneighbour/unsplash-download-tracker",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidsneighbour/jaq-unsplash-download-tracker.git"
+  },
+  "keywords": [],
+  "author": "Patrick Kollitsch <davidsneighbourdev+gh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidsneighbour/jaq-unsplash-download-tracker/issues"
+  },
+  "homepage": "https://github.com/davidsneighbour/jaq-unsplash-download-tracker#readme",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "sync": "node unsplash-sync-downloads.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.59.1"
+  },
+  "devDependencies": {
+    "@types/node": "25.5.2"
+  }
+}
