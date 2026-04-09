@@ -1,32 +1,35 @@
 {
   "name": "@davidsneighbour/unsplash-download-tracker",
+  "description": "Synchronise a user's personal Unsplash download history into a local archive.",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.ts",
+  "license": "MIT",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davidsneighbour/jaq-unsplash-download-tracker.git"
   },
-  "keywords": [],
   "author": "Patrick Kollitsch <davidsneighbourdev+gh@gmail.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/davidsneighbour/jaq-unsplash-download-tracker/issues"
   },
   "homepage": "https://github.com/davidsneighbour/jaq-unsplash-download-tracker#readme",
-  "private": true,
-  "type": "module",
-  "engines": {
-    "node": ">=22"
-  },
-  "scripts": {
-    "sync": "node unsplash-sync-downloads.ts"
-  },
+  "keywords": [],
   "dependencies": {
-    "playwright": "^1.59.1"
+    "playwright": "1.59.1"
   },
   "devDependencies": {
-    "@types/node": "25.5.2"
+    "@release-it/conventional-changelog": "10.0.6",
+    "@types/node": "25.5.2",
+    "release-it": "19.2.4"
+  },
+  "scripts": {
+    "release": "release-it",
+    "release:ci": "release-it --ci",
+    "sync": "node index.ts --verbose"
+  },
+  "main": "index.ts",
+  "engines": {
+    "node": ">=22"
   },
   "cspell": {
     "language": "en-GB",
@@ -40,5 +43,6 @@
     "dictionaries": [
       "local-project-words"
     ]
-  }
+  },
+  "type": "module"
 }
