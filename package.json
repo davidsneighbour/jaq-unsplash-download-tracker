@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/unsplash-download-tracker",
   "description": "Synchronise a user's personal Unsplash download history into a local archive.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "private": true,
   "repository": {
